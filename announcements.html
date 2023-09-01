@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: white; /* Set text color to white */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .announcement {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .announcement h2 {
+            margin-top: 0;
+        }
+
+        .announcement p {
+            margin-bottom: 0;
+        }
+
+        /* Background gradient style */
+        body {
+            background: linear-gradient(45deg, navy, #808080);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white;">Announcements</h1>
+<button onclick="redirectToArcSite()">home</button>
+
+    <script>
+        function redirectToArcSite() {
+            window.location.href = "https://arc-site.royalxvirusalt.repl.co/";
+        }
+    </script>
+    <div class="announcement">
+        <h2>ARC is finally Launching!</h2>
+        <p>After a long-awaited time and ups and downs, ARC is almost ready to launch to the public</p>
+        <p>ARC v0.1 (July 30)</p>
+    </div>
+
+    <!-- Add more announcements here if needed -->
+
+</body>
+</html>
